@@ -1,0 +1,16 @@
+HTML:
+- Fazer div com id viewport no body para por toda a página
+- usar muito div e class
+
+CSS:
+- Flexbox e Grid
+- IDs, Classes e Attribute Specific Selectors
+- Pseudo Class (ex: hover)
+
+SASS:
+- Variáveis
+- Nested Styling
+
+Bootstrap:
+- Templates de componentes
+- auto responsivo

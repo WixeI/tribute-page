@@ -1,0 +1,20 @@
+//Seção 1: Intro
+<nome, bg, ano a ano, subfrase>
+$nome: "Kōji Wada";
+$Vida: 1974 - 2016
+$subfrase: "The Immortal Butterfly Anisong Singer";
+$bg: tela preta, pena branca no canto direito
+
+//Seção 2: sobre
+Dividido em 2 terços texto 1 terço imagem à direita
+H1: sobre
+p: Kōji Wada (和田 光司, Wada Kōji, January 29, 1974 – April 3, 2016)[1] was a Japanese pop singer. He was best known for performing theme songs for several installments of the Digimon anime television series, including his recording debut in 1999 with his first and most famous single, "Butter-Fly", the theme song of the anime Digimon Adventure. He was signed with the Lantis recording label.
+
+//Seção 2.1: Discografia
+Uma imagem de cacda álbum. Link para wikipedia.
+
+//Seção 3: fechamento
+<citação>
+$citação: "Even with these awkward wings, dyed with images that seem to stay
+I'm sure we can fly, on my love"
+- Butter-Fly, Kōji Wada

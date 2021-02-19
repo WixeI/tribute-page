@@ -1,0 +1,19 @@
+// $primary-color: ;
+// $secondary-color: ;
+// $light: ;
+// $dark: ;
+
+$img-size: 200px;
+
+.discography {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    max-width: $img-size;
+}
+
+img {
+    width: $img-size;
+}

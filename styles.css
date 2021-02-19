@@ -1,0 +1,11 @@
+.discography {
+  display: flex;
+  flex-wrap: wrap; }
+
+figure {
+  max-width: 200px; }
+
+img {
+  width: 200px; }
+
+/*# sourceMappingURL=styles.css.map */

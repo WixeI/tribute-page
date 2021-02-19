@@ -1,11 +1,115 @@
-.discography {
-  display: flex;
-  flex-wrap: wrap; }
-
 figure {
-  max-width: 200px; }
+  max-width: 300px; }
 
 img {
-  width: 200px; }
+  width: 300px; }
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333; }
+
+body {
+  margin: 0 0 0 0;
+  background: #ddd; }
+
+.first-impression {
+  background: url(img/bg3.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  color: #ddd;
+  height: 105vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .first-impression h1 {
+    font-size: 5vw;
+    margin: 1vw 0 1vw 0; }
+  .first-impression h3 {
+    font-size: 2vw;
+    margin: 1vw 0 1vw 0; }
+
+.main-content .title {
+  font-size: 3rem;
+  margin: 2rem 0 2rem 1rem; }
+
+.about {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  box-shadow: 0 2px 2px rgba(56, 41, 41, 0.2); }
+  .about img {
+    min-width: 100%;
+    box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5); }
+  .about .text {
+    margin: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column; }
+    .about .text p {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 1.5rem; }
+
+.discography {
+  margin: 1rem;
+  margin-bottom: 5rem; }
+
+.discos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .discos img {
+    height: 300px; }
+
+.ending {
+  background: url(img/bg3.jpg);
+  background-position: right top;
+  color: #ddd;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .ending p {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+
+@media only screen and (max-width: 768px) {
+  .first-impression h1 {
+    font-size: 10vw;
+    margin: 1vw 0 1vw 0; }
+  .first-impression h3 {
+    font-size: 3vw;
+    margin: 1vw 0 1vw 0; }
+
+  .main-content .title {
+    text-align: center; }
+
+  .about .text {
+    margin-bottom: 2rem; }
+
+  .ending {
+    padding: 0 1rem 0 1rem; } }
+@media only screen and (max-width: 480px) {
+  .first-impression h1 {
+    font-size: 15vw;
+    margin: 1vw 0 1vw 0; }
+  .first-impression h3 {
+    font-size: 4vw;
+    margin: 1vw 0 1vw 0; }
+
+  .main-content .title {
+    text-align: center; }
+
+  .about {
+    grid-template-columns: 1fr; }
+    .about .text {
+      margin-bottom: 2rem; }
+    .about img {
+      min-width: 50%;
+      margin-bottom: 1rem;
+      justify-self: center; }
+
+  .ending {
+    padding: 0 1rem 0 1rem; } }
 
 /*# sourceMappingURL=styles.css.map */
